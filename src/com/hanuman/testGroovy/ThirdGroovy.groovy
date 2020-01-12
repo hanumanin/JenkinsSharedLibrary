@@ -1,5 +1,5 @@
 pakcage com.hanuman.testGroovy
-class ThirdGroovy implements Serializable{
+class ThirdGroovy implements Serializable {
   
 
   void thridMethod(){
