@@ -1,4 +1,4 @@
-#!/usr/bin/groovy
+
 class ThirdGroovy implements Serializable{
   
 
