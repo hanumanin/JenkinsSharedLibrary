@@ -1,4 +1,5 @@
-pakcage com.hanuman.testGroovy
+package com.hanuman.testGroovy
+
 class ThirdGroovy implements Serializable {
   
 
