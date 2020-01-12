@@ -1,7 +1,6 @@
 import com.hanuman.testGroovy.FirstGroovy
 import com.hanuman.testGroovy.SecondGroovy
-
-
+import com.hanuman.testGroovy.ThirdGroovy
 
 def call(String solutionPath) {
     echo " Hello World ${solutionPath}"
@@ -14,6 +13,8 @@ def call(String solutionPath) {
     
     
     echo " After method Call"
+    
+    // def thirdGroovy = new ThirdGroovy("Test")
     
     
     }
