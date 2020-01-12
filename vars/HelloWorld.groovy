@@ -12,6 +12,9 @@ def call(String solutionPath) {
    secondGroovy.testGroovyMethod1()
     
     
+    def thirdGroovy = new ThirdGroovy()
+   thirdGroovy.thridMethod()
+    
     echo " After method Call"
     
     // def thirdGroovy = new ThirdGroovy("Test")
