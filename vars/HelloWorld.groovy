@@ -1,4 +1,4 @@
 def call(String solutionPath) {
-    echo " Hello World"
+    echo " Hello World ${solutionPath}"
     
     }
