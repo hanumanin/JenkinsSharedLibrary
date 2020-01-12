@@ -1,5 +1,8 @@
 #!/usr/bin/groovy
-def call(String message){
-echo " Inside ThridGroovy Class"
+class ThirdGroovy implements Serializable{
+  
 
+  void thridMethod(){
+  println " Inside ThridGroovy Class"
+  }
 }
