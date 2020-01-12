@@ -4,7 +4,7 @@ class SecondGroovy implements Serializable  {
  
 void testGroovyMethod1(){
 
-println  "Inside testGroovyMethod"
+echo   "Inside testGroovyMethod"
 }
 
 }
