@@ -1,4 +1,5 @@
 import com.hanuman.testGroovy.FirstGroovy
+import com.haunman.testGrovy.SecondGroovy
 
 
 
@@ -7,6 +8,10 @@ def call(String solutionPath) {
     
     def firstGroovy = new FirstGroovy()
     firstGroovy.testGroovyMethod()
+    
+    def secondGroovy = new SecondGroovy()
+    secondGroovy.testGroovyMethod()
+    
     
     echo " After method Call"
     
