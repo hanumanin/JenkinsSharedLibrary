@@ -1,8 +1,8 @@
 package com.hanuman.testGroovy
 
-Class FirstGroovy extends Serializable {
+class FirstGroovy implements Serializable  {
 
-
+  
 void testGroovyMethod(){
 
 echo " Inside testGroovyMethod"
