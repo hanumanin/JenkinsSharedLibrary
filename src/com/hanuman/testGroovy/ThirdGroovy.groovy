@@ -2,8 +2,11 @@ package com.hanuman.testGroovy
 import com.hanuman.testGroovy.SecondGroovy
 import hudson.model.*
 
-class ThirdGroovy implements Serializable {
+    // Get the out variable
+def out = getBinding().out;
   
+class ThirdGroovy implements Serializable {
+
 
   void thridMethod(){
   out.println " Inside ThridGroovy Class"
