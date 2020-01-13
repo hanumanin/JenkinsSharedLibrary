@@ -1,8 +1,8 @@
-def myGloablvariable;
+
 
 def call(String solutionPath) {
    echo " Isndie Email Notifiy method"
-   echo " value of myGloablvariable is = ${myGloablvariable}"
+   echo " value of myGloablvariable is = ${myGlobalValue}"
    
     
     }
